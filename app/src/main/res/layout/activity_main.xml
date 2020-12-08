@@ -10,15 +10,17 @@
     app:motionDebug="SHOW_ALL">
 
     <FrameLayout
+        android:id="@+id/bottomCard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00FFFF" />
+
+    <FrameLayout
         android:id="@+id/topCard"
         android:background="#CC0000"
         android:layout_width="0dp"
         android:layout_height="0dp"/>
 
-    <FrameLayout
-        android:id="@+id/bottomCard"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="#00FFFF" />
+
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
